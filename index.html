@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sniffer Downloader</title>
+</head>
+<body onload="loadHistory()">
+  <h1>Downloader TikTok & YouTube</h1>
+  <input type="text" id="urlInput" placeholder="Tempelkan URL TikTok atau YouTube">
+  <button onclick="downloadMedia(document.getElementById('urlInput').value)">Unduh</button>
+  
+  <div id="download-results"></div>
+  <hr>
+  <h2>Riwayat Unduhan</h2>
+  <ul id="history"></ul>
+
+  <script src="downloadHandler.js"></script>
+</body>
+</html>
